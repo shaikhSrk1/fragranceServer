@@ -1,7 +1,7 @@
 
 import express from 'express'
 import { isAdmin, requiresLogin } from '../middlewares/authMiddleware.js';
-import { deleteOrderController, getOrder, placeOrder } from '../controllers/orderController.js';
+import { deleteOrderController, getOrder, placeOrder, updateOrder } from '../controllers/orderController.js';
 
 //router object
 const router = express.Router()
